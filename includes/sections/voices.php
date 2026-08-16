@@ -2,11 +2,11 @@
 $lang = getCurrentLang();
 $testimonials = getTestimonials();
 ?>
-<section class="stemmen" id="stemmen">
+<section class="stemmen">
   <div class="stemmen-inner">
     <div class="stemmen-head">
-      <h2 data-t="stemmen_title">Ervaringen</h2>
-      <a href="#" data-t="stemmen_all">Alle ervaringen →</a>
+      <h2 data-t="stemmen_title">Stemmen uit de stroom</h2>
+      <a href="#" data-t="stemmen_all">Alle stemmen →</a>
     </div>
     <div class="stemmen-grid">
       <?php foreach ($testimonials as $t):

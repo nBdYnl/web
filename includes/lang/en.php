@@ -1,10 +1,10 @@
 <?php
 return [
-    'nav_stroom'    => 'The Stream',
-    'nav_forum'     => 'The Forum',
+    'nav_stroom'    => 'Stories',
+    'nav_forum'     => 'Forum',
     'nav_plek'      => 'The Place',
     'nav_over'      => 'About nBdy',
-    'nav_write'     => 'Story',
+    'nav_write'     => 'Share',
     'nav_login'     => 'Sign in',
     'nav_logout'    => 'Sign out',
 
@@ -12,7 +12,7 @@ return [
     'lang_en'       => 'English',
     'lang_de'       => 'Deutsch',
 
-    'hero_cta1'     => 'Explore the stream',
+    'hero_cta1'     => 'Browse stories',
     'hero_cta2'     => 'The Place',
 
     'web_f'         => 'Philosophy',
@@ -22,28 +22,28 @@ return [
     'web_n'         => 'Nature',
     'web_s'         => 'Silence',
 
-    'stats_zielen'      => 'Souls',
+    'stats_zielen'      => 'People',
     'stats_verhalen'    => 'Stories',
-    'stats_verbindingen'=> 'Connections',
-    'stats_plek'        => 'Place',
+    'stats_verbindingen'=> 'Replies',
+    'stats_plek'        => 'Location',
 
-    'stroom_title'  => 'The Stream',
+    'stroom_title'  => 'Stories',
     'stroom_all'    => 'View all →',
     'verder_title'  => 'Further Reading',
     'verder_archief'=> 'Archive →',
 
-    'forum_title'   => 'The Forum',
+    'forum_title'   => 'Forum',
     'forum_all'     => 'View all →',
     'forum_replies' => 'replies',
     'forum_reply'   => 'reply',
 
-    'stemmen_title' => 'Voices from the stream',
-    'stemmen_all'   => 'All voices →',
+    'stemmen_title' => 'Experiences',
+    'stemmen_all'   => 'All experiences →',
 
-    'plek_label'    => 'Our dream',
+    'plek_label'    => 'Our plan',
     'plek_hectare'  => 'Hectare',
-    'plek_zielen'   => 'Souls',
-    'plek_droom'    => 'Dream',
+    'plek_zielen'   => 'People',
+    'plek_droom'    => 'Goal',
 
     'oefening_cta'  => 'Share your experience in the forum',
 
@@ -53,9 +53,9 @@ return [
     'footer_forum'      => 'The Forum',
     'footer_de_plek'    => 'The Place',
     'footer_contact'    => 'Contact',
-    'footer_cta_btn'    => 'Become part of this universe',
+    'footer_cta_btn'    => 'Join us',
 
-    'login_welcome'     => 'Welcome back, soul.',
+    'login_welcome'     => 'Welcome back.',
     'password'          => 'Password',
     'login_btn'         => 'Sign in',
     'login_email'       => 'Email',

@@ -46,9 +46,9 @@ INSERT INTO site_settings (setting_key, setting_value) VALUES
 ('plek_desc1_nl', "Een blokhut, verscholen tussen de bomen. Dichtbij water — een stil meer, een kabbelend beekje. 's Avonds een kampvuur dat knettert terwijl de sterren tevoorschijn komen."),
 ('plek_desc1_en', 'A cabin, hidden among the trees. Close to water — a silent lake, a babbling brook. In the evening a crackling campfire as the stars appear.'),
 ('plek_desc1_de', 'Eine Blockhütte, versteckt zwischen den Bäumen. Nah am Wasser — ein stiller See, ein plätschernder Bach. Abends ein knisterndes Lagerfeuer, während die Sterne hervorkommen.'),
-('plek_desc2_nl', 'Geen therapie, geen programma. Gewoon zijn. Samen rond het vuur. Praten als je wilt, zwijgen als je moet. Een plek waar zielen mogen rusten, mogen praten, mogen verbinden. Dat is waar we naartoe werken.'),
-('plek_desc2_en', 'No therapy, no program. Just being. Together around the fire. Talk when you want, be silent when you must. A place where souls may rest, may talk, may connect. That is what we are working towards.'),
-('plek_desc2_de', 'Keine Therapie, kein Programm. Einfach sein. Zusammen um das Feuer. Reden wenn du willst, schweigen wenn du musst. Ein Ort, an dem Seelen ruhen, reden, sich verbinden dürfen. Darauf arbeiten wir hin.'),
+('plek_desc2_nl', 'Geen therapie, geen programma. Gewoon zijn. Samen rond het vuur. Praten als je wilt, zwijgen als je moet. Een plek waar je kunt uitrusten, praten en ontmoeten. Dat is waar we naartoe werken.'),
+('plek_desc2_en', 'No therapy, no program. Just being. Together around the fire. Talk when you want, be silent when you must. A place where you can rest, talk, and meet others. That is what we are working towards.'),
+('plek_desc2_de', 'Keine Therapie, kein Programm. Einfach sein. Zusammen um das Feuer. Reden wenn du willst, schweigen wenn du musst. Ein Ort, an dem du ausruhen, reden und andere treffen kannst. Darauf arbeiten wir hin.'),
 ('plek_caption_nl', 'De droom — een kampvuur, water, en de stilte van het bos'),
 ('plek_caption_en', 'The dream — a campfire, water, and the silence of the forest'),
 ('plek_caption_de', 'Der Traum — ein Lagerfeuer, Wasser und die Stille des Waldes');
@@ -57,43 +57,43 @@ INSERT INTO site_settings (setting_key, setting_value) VALUES
 -- STORIES
 -- ============================================================
 INSERT INTO stories (slug, title, excerpt, content, featured_image, category_id, status, is_featured, read_time, published_at) VALUES
-('ontologische-vrijheid', 'De ultieme blauwdruk voor ontologische vrijheid', 
+('wat-betekent-vrijheid', 'Wat betekent vrijheid echt?', 
  'Wat betekent het om werkelijk vrij te zijn? Niet alleen van ketenen, maar van de ideeën die ons gevangen houden zonder dat we het merken.',
  '<p>Wat betekent het om werkelijk vrij te zijn? Niet alleen van ketenen, maar van de ideeën die ons gevangen houden zonder dat we het merken.</p><p>Deze vraag heeft mensen al duizenden jaren beziggehouden. Van de Stoïcijnen tot Sartre, van Boeddha tot de hedendaagse existentiële therapeuten — iedereen probeert het antwoord te benaderen.</p><p>Maar misschien is vrijheid geen bestemming. Misschien is het een praktijk. Een dagelijkse keuze om bewust te zijn van de patronen die ons vormen.</p>',
  'https://kimi-web-img.moonshot.cn/img/c8.alamy.com/7185641aaa8110f66e248bdf95d8aed6a2d8d9c0.jpg',
  1, 'published', 1, '8 min', '2026-07-28 10:00:00'),
 
-('bladzijden-van-het-leven', 'De Bladzijden van het leven',
+('bladzijden-van-het-leven', 'De bladzijden van het leven',
  "Sommige pagina's worden gescheurd, verbrand, of vergeten...",
  "<p>Sommige pagina's worden gescheurd, verbrand, of vergeten. Maar elk hoofdstuk maakt het verhaal compleet.</p><p>We denken vaak dat we ons verleden moeten verbergen. Dat de pijnlijke momenten beter worden weggestopt. Maar juist die pagina's — de gekreukte, de beschreven, de vlekkerige — geven ons verhaal diepte.</p>",
  'https://kimi-web-img.moonshot.cn/img/thumbs.dreamstime.com/e83d395b0510af684bee2ddfc0fdec7add6255c7.jpg',
  2, 'published', 0, '4 min', '2026-07-01 14:30:00'),
 
-('stilte-tussen-de-woorden', 'De stilte tussen de woorden',
+('stilte-zegt-meer', 'Soms zegt stilte meer dan woorden',
  'Soms zegt het niets-zeggen meer dan duizend zinnen...',
  '<p>Soms zegt het niets-zeggen meer dan duizend zinnen. In de stilte vinden we wat woorden niet kunnen uitdrukken.</p><p>We leven in een wereld die constant praat. Notificaties, nieuws, meningen — het is nooit stil. Maar juist in die stilte, wanneer we stoppen met spreken, horen we wat er werkelijk toe doet.</p>',
  'https://kimi-web-img.moonshot.cn/img/thumbs.dreamstime.com/076395295781c9f3fdba43a9184a74f0a629d409.jpg',
  8, 'published', 0, '4:32', '2026-07-05 09:15:00'),
 
-('verhaal-van-mesopotamia', 'Het Verhaal van Mesopotamia',
+('verhaal-van-mesopotamia', 'Het verhaal van Mesopotamia',
  'Wie waren we voordat de geschiedenis ons vertelde wie we moesten zijn?',
  '<p>Wie waren we voordat de geschiedenis ons vertelde wie we moesten zijn? Mesopotamia, het land tussen de rivieren, was de wieg van beschaving. Maar wie waren de mensen die daar leefden?</p><p>Ze hadden verhalen, dromen, angsten en hoop — net zoals wij. De geschiedenisboeken vertellen ons over koningen en veldslagen, maar de echte verhalen zitten in de klei tabletjes, de liefdesbrieven, de dagboeken van gewone mensen.</p>',
  'https://kimi-web-img.moonshot.cn/img/thumbs.dreamstime.com/102f98b81e9a7815516eadd3661f2cee373ff794.jpg',
  3, 'published', 0, '9 min', '2026-06-24 16:45:00'),
 
-('reis-van-het-leven', 'De Reis van het Leven',
+('reis-van-het-leven', 'De reis van het leven',
  'We denken dat we reizen naar een bestemming. Maar het pad zelf is het enige dat telt.',
  '<p>We denken dat we reizen naar een bestemming. Maar het pad zelf is het enige dat telt.</p><p>De bestemming is een illusie. Er is geen eindpunt waar we aankomen en plotseling "klaar" zijn. Het leven is de reis, en elke stap is even waardevol als de vorige.</p>',
  'https://kimi-web-img.moonshot.cn/img/media.istockphoto.com/ba4ed9eb43e38d856739fbb9a6f437208432a208.jpg',
  2, 'published', 0, '6 min', '2026-07-10 11:00:00'),
 
-('10-over-12', '10 over 12',
+('tien-over-twaalf', 'Tien over twaalf',
  'Er is een moment waarop de klok stil lijkt te staan. Waarop alles wacht.',
  '<p>Er is een moment waarop de klok stil lijkt te staan. Waarop alles wacht. Twaalf uur, tien over twaalf — het is een metafoor voor die momenten van stilstand in ons leven.</p><p>Soms moeten we even stoppen. Niet omdat we moe zijn, maar omdat we even moeten kijken waar we zijn voordat we verder gaan.</p>',
  'https://kimi-web-img.moonshot.cn/img/thumbs.dreamstime.com/e0652ddbc0b7c4934b5f40841810eab063c19d83.jpg',
  1, 'published', 0, '5 min', '2026-07-08 08:30:00'),
 
-('les-over-anorexia', 'Onverwachts een les over Anorexia',
+('les-over-anorexia', 'Onverwachts een les over anorexia',
  'Sommige lessen komen niet uit boeken. Ze komen uit de ogen van iemand die vecht.',
  '<p>Sommige lessen komen niet uit boeken. Ze komen uit de ogen van iemand die vecht.</p><p>Anorexia is meer dan een eetstoornis. Het is een strijd om controle, om perfectie, om acceptatie. En soms komt de grootste les uit het meest onverwachte gesprek.</p>',
  'https://kimi-web-img.moonshot.cn/img/www.shutterstock.com/46bbef0ca0fe844417c04d9ce4dc6604b7942672.jpg',
@@ -120,21 +120,21 @@ INSERT INTO forum_topics (slug, title, content, category_id, status, reply_count
 -- ============================================================
 INSERT INTO testimonials (quote_nl, quote_en, quote_de, author_name, author_role, author_init, sort_order) VALUES
 (
-  "Ik kwam hier op een nacht dat ik het niet meer zag zitten. Ik dacht: nog een forum, nog een plek waar niemand me echt hoort. Maar hier was iemand om drie uur 's nachts. Een vreemde die me niet kende, maar me wel zag. Dat heeft alles veranderd.",
-  "I came here on a night when I couldn't see a way out. I thought: another forum, another place where no one really hears me. But here was someone at three in the morning. A stranger who didn't know me, but saw me. That changed everything.",
-  'Ich kam hierher in einer Nacht, in der ich keinen Ausweg mehr sah. Ich dachte: noch ein Forum, noch ein Ort, an dem mich niemand wirklich hört. Aber hier war jemand um drei Uhr morgens. Ein Fremder, der mich nicht kannte, aber mich sah. Das hat alles verändert.',
+  'Ik had een vraag over mijn buurman. Binnen een uur had ik vijf bruikbare tips. Dat had ik niet verwacht.',
+  "I had a question about my neighbor. Within an hour I had five useful tips. I didn't expect that.",
+  'Ich hatte eine Frage zu meinem Nachbarn. Innerhalb einer Stunde hatte ich fünf nützliche Tipps. Damit hatte ich nicht gerechnet.',
   'L.', 'Lid sinds maart 2026', 'L', 1
 ),
 (
-  'Voor het eerst in mijn leven voel ik me niet alleen in mijn denken. Niet omdat iedereen het met me eens is, maar omdat hier ruimte is voor vragen zonder antwoorden. Dat is zeldzaam.',
-  'For the first time in my life I do not feel alone in my thinking. Not because everyone agrees with me, but because here there is room for questions without answers. That is rare.',
-  'Zum ersten Mal in meinem Leben fühle ich mich in meinem Denken nicht allein. Nicht weil alle mir zustimmen, sondern weil hier Raum ist für Fragen ohne Antworten. Das ist selten.',
+  'Hier kan ik gewoon schrijven wat ik denk, zonder dat iemand me raar aankijkt.',
+  'Here I can just write what I think, without anyone looking at me strangely.',
+  'Hier kann ich einfach aufschreiben, was ich denke, ohne dass mich jemand komisch anschaut.',
   'M.', 'Lid sinds januari 2026', 'M', 2
 ),
 (
-  'Ik dacht dat ik hier kwam om te leren. Maar ik merk dat ik hier vooral kom om te herinneren wie ik was voordat de wereld me vertelde wie ik moest zijn.',
-  'I thought I came here to learn. But I find I come here mainly to remember who I was before the world told me who I had to be.',
-  'Ich dachte, ich käme hierher, um zu lernen. Aber ich merke, dass ich hier vor allem komme, um mich daran zu erinnern, wer ich war, bevor die Welt mir erzählte, wer ich sein musste.',
+  'Ik kwam hier met een vraag over werkstress. De reacties waren eerlijk en praktisch. Precies wat ik nodig had.',
+  'I came here with a question about work stress. The responses were honest and practical. Exactly what I needed.',
+  'Ich kam hierher mit einer Frage zu Arbeitsstress. Die Antworten waren ehrlich und praktisch. Genau was ich brauchte.',
   'Anoniem', 'Lid sinds juni 2026', 'A', 3
 );
 
@@ -147,12 +147,12 @@ INSERT INTO exercises (slug, label_nl, label_en, label_de, quote_nl, quote_en, q
   'De oefening',
   'The practice',
   'Die Übung',
-  '"Wie ben jij wanneer je niets hoeft te presteren — zelfs niet voor jezelf?"',
-  '"Who are you when you have nothing to perform — not even for yourself?"',
-  '"Wer bist du, wenn du nichts leisten musst — nicht einmal für dich selbst?"',
-  "Deze week nodigen we je uit om vijf minuten per dag in stilte te zitten. Niet om iets te bereiken, niet om te mediteren 'zoals het hoort'. Gewoon om te zijn. Merk op wat opkomt zonder het te veroordelen. Dat is waar groei begint: in het ruimte maken voor wat er al is.",
-  'This week we invite you to sit in silence for five minutes a day. Not to achieve something, not to meditate "the right way". Just to be. Notice what arises without judging it. That is where growth begins: in making space for what already is.',
-  'Diese Woche laden wir dich ein, fünf Minuten am Tag in Stille zu sitzen. Nicht, um etwas zu erreichen, nicht, um "richtig" zu meditieren. Einfach nur, um zu sein. Beobachte, was aufkommt, ohne es zu verurteilen. Dort beginnt Wachstum: im Raumschaffen für das, was bereits ist.',
+  '"Deze week: vijf minuten stilzitten. Geen doel, geen prestatie. Gewoon even niets."',
+  '"This week: five minutes of sitting still. No goal, no performance. Just a moment of nothing."',
+  '"Diese Woche: fünf Minuten stillsitzen. Kein Ziel, keine Leistung. Einfach einen Moment nichts."',
+  'Je hoeft niets te veranderen. Soms is stilte genoeg.',
+  "You don't have to change anything. Sometimes silence is enough.",
+  'Du musst nichts ändern. Manchmal ist Stille genug.',
   'Deel je ervaring in het forum',
   'Share your experience in the forum',
   'Teile deine Erfahrung im Forum',

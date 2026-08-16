@@ -6,8 +6,8 @@ $readMore = getRecentStories(3, 0);
 function catName($story, $lang) { return $story['name_' . $lang] ?? $story['name_nl'] ?? 'Algemeen'; }
 ?>
 <div class="mag">
-  <div class="section-head" id="stroom">
-    <h2 data-t="stroom_title">Verhalen</h2>
+  <div class="section-head" id="stories">
+    <h2 data-t="stroom_title">De Stroom</h2>
     <a href="<?= SITE_URL ?>/pages/archive.php" data-t="stroom_all">Alles bekijken →</a>
   </div>
   <div class="edit-grid">
@@ -35,6 +35,9 @@ function catName($story, $lang) { return $story['name_' . $lang] ?? $story['name
       <?php endforeach; ?>
     </div>
   </div>
+
+  <?php require_once __DIR__ . '/practice.php'; ?>
+
   <div class="section-head">
     <h2 data-t="verder_title">Verder lezen</h2>
     <a href="<?= SITE_URL ?>/pages/archive.php" data-t="verder_archief">Archief →</a>

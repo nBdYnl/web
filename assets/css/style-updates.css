@@ -1,0 +1,105 @@
+/* ========================================
+   nBdy — Style Updates (merge in style.css)
+   ======================================== */
+
+/* Hero actions */
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.hero-actions .btn-gold {
+  padding: 14px 32px;
+  font-size: 1.05rem;
+}
+
+.hero-meta {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* Schrijf-knoppen in nav */
+.write-btn,
+.write-btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all .2s;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+.write-btn {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+.write-btn:hover {
+  background: var(--gold-light, #d4b86a);
+}
+
+.write-btn-ghost {
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  background: transparent;
+}
+
+.write-btn-ghost:hover {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+/* Login modal alternatief (register link) */
+.login-alt {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.login-alt a {
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-alt a:hover {
+  text-decoration: underline;
+}
+
+/* Register modal */
+#register-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+#register-modal.open {
+  display: flex;
+}
+
+/* Responsive: schrijf-knop verbergen op zeer kleine schermen */
+@media (max-width: 480px) {
+  .write-btn span,
+  .write-btn-ghost span {
+    display: none;
+  }
+  .write-btn,
+  .write-btn-ghost {
+    padding: 6px;
+  }
+}

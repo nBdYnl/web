@@ -1,10 +1,10 @@
 <?php
 return [
-    'nav_stroom'    => 'Der Strom',
-    'nav_forum'     => 'Das Forum',
+    'nav_stroom'    => 'Geschichten',
+    'nav_forum'     => 'Forum',
     'nav_plek'      => 'Der Ort',
     'nav_over'      => 'Über nBdy',
-    'nav_write'     => 'Geschichte',
+    'nav_write'     => 'Teilen',
     'nav_login'     => 'Anmelden',
     'nav_logout'    => 'Abmelden',
 
@@ -12,7 +12,7 @@ return [
     'lang_en'       => 'English',
     'lang_de'       => 'Deutsch',
 
-    'hero_cta1'     => 'Erkunde den Strom',
+    'hero_cta1'     => 'Geschichten durchsuchen',
     'hero_cta2'     => 'Der Ort',
 
     'web_f'         => 'Philosophie',
@@ -22,28 +22,28 @@ return [
     'web_n'         => 'Natur',
     'web_s'         => 'Stille',
 
-    'stats_zielen'      => 'Seelen',
+    'stats_zielen'      => 'Menschen',
     'stats_verhalen'    => 'Geschichten',
-    'stats_verbindingen'=> 'Verbindungen',
-    'stats_plek'        => 'Ort',
+    'stats_verbindingen'=> 'Antworten',
+    'stats_plek'        => 'Standort',
 
-    'stroom_title'  => 'Der Strom',
+    'stroom_title'  => 'Geschichten',
     'stroom_all'    => 'Alle ansehen →',
     'verder_title'  => 'Weiterlesen',
     'verder_archief'=> 'Archiv →',
 
-    'forum_title'   => 'Das Forum',
+    'forum_title'   => 'Forum',
     'forum_all'     => 'Alle ansehen →',
     'forum_replies' => 'Antworten',
     'forum_reply'   => 'Antwort',
 
-    'stemmen_title' => 'Stimmen aus dem Strom',
-    'stemmen_all'   => 'Alle Stimmen →',
+    'stemmen_title' => 'Erfahrungen',
+    'stemmen_all'   => 'Alle Erfahrungen →',
 
-    'plek_label'    => 'Unser Traum',
+    'plek_label'    => 'Unser Plan',
     'plek_hectare'  => 'Hektar',
-    'plek_zielen'   => 'Seelen',
-    'plek_droom'    => 'Traum',
+    'plek_zielen'   => 'Menschen',
+    'plek_droom'    => 'Ziel',
 
     'oefening_cta'  => 'Teile deine Erfahrung im Forum',
 
@@ -53,9 +53,9 @@ return [
     'footer_forum'      => 'Das Forum',
     'footer_de_plek'    => 'Der Ort',
     'footer_contact'    => 'Kontakt',
-    'footer_cta_btn'    => 'Werde Teil dieses Universums',
+    'footer_cta_btn'    => 'Mach mit',
 
-    'login_welcome'     => 'Willkommen zurück, Seele.',
+    'login_welcome'     => 'Willkommen zurück.',
     'password'          => 'Passwort',
     'login_btn'         => 'Anmelden',
     'login_email'       => 'Email',

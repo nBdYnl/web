@@ -1,11 +1,11 @@
 <?php
 return [
     // Navigatie
-    'nav_stroom'    => 'De Stroom',
-    'nav_forum'     => 'Het Forum',
+    'nav_stroom'    => 'Verhalen',
+    'nav_forum'     => 'Forum',
     'nav_plek'      => 'De Plek',
     'nav_over'      => 'Over nBdy',
-    'nav_write'     => 'Verhaal',
+    'nav_write'     => 'Deel',
     'nav_login'     => 'Inloggen',
     'nav_logout'    => 'Uitloggen',
 
@@ -15,7 +15,7 @@ return [
     'lang_de'       => 'Deutsch',
 
     // Hero
-    'hero_cta1'     => 'Verken de stroom',
+    'hero_cta1'     => 'Bekijk de verhalen',
     'hero_cta2'     => 'De Plek',
 
     // Web nodes
@@ -27,32 +27,32 @@ return [
     'web_s'         => 'Stilte',
 
     // Stats
-    'stats_zielen'      => 'Zielen',
+    'stats_zielen'      => 'Mensen',
     'stats_verhalen'    => 'Verhalen',
-    'stats_verbindingen'=> 'Verbindingen',
-    'stats_plek'        => 'Plek',
+    'stats_verbindingen'=> 'Reacties',
+    'stats_plek'        => 'Locatie',
 
     // Stroom
-    'stroom_title'  => 'De Stroom',
+    'stroom_title'  => 'Verhalen',
     'stroom_all'    => 'Alles bekijken →',
     'verder_title'  => 'Verder lezen',
     'verder_archief'=> 'Archief →',
 
     // Forum
-    'forum_title'   => 'Het Forum',
+    'forum_title'   => 'Forum',
     'forum_all'     => 'Bekijk alles →',
     'forum_replies' => 'reacties',
     'forum_reply'   => 'reactie',
 
     // Stemmen
-    'stemmen_title' => 'Stemmen uit de stroom',
-    'stemmen_all'   => 'Alle stemmen →',
+    'stemmen_title' => 'Ervaringen',
+    'stemmen_all'   => 'Alle ervaringen →',
 
     // Plek
-    'plek_label'    => 'Onze droom',
+    'plek_label'    => 'Ons plan',
     'plek_hectare'  => 'Hectare',
-    'plek_zielen'   => 'Zielen',
-    'plek_droom'    => 'Droom',
+    'plek_zielen'   => 'Mensen',
+    'plek_droom'    => 'Doel',
 
     // Oefening
     'oefening_cta'  => 'Deel je ervaring in het forum',
@@ -64,10 +64,10 @@ return [
     'footer_forum'      => 'Het Forum',
     'footer_de_plek'    => 'De Plek',
     'footer_contact'    => 'Contact',
-    'footer_cta_btn'    => 'Word onderdeel van dit universum',
+    'footer_cta_btn'    => 'Doe mee',
 
     // Login
-    'login_welcome'     => 'Welkom terug, ziel.',
+    'login_welcome'     => 'Welkom terug.',
     'password'          => 'Wachtwoord',
     'login_btn'         => 'Inloggen',
     'login_email'       => 'Email',

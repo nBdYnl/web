@@ -12,7 +12,7 @@ $user = getCurrentUser();
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?= isset($pageTitle) ? sanitizeInput($pageTitle) . ' — ' : '' ?>nBdy</title>
-<meta name="description" content="<?= isset($pageDesc) ? sanitizeInput($pageDesc) : 'nBdy — Voor en van iedereen. Alles is verbonden.' ?>">
+<meta name="description" content="<?= isset($pageDesc) ? sanitizeInput($pageDesc) : 'nBdy — Voor en van iedereen. Verhalen, gesprekken en ideeën.' ?>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="<?= ASSETS_URL ?>/css/style.css">
@@ -36,10 +36,10 @@ $user = getCurrentUser();
       <div><div class="brand-text">nBdy</div><div class="brand-sub">Voor en van iedereen</div></div>
     </a>
     <div class="nav-links">
-      <a href="#stroom" data-t="nav_stroom">De Stroom</a>
-      <a href="#forum" data-t="nav_forum">Het Forum</a>
-      <a href="#plek" data-t="nav_plek">De Plek</a>
-      <a href="#over" data-t="nav_over">Over nBdy</a>
+      <a href="#stories" data-t="nav_stroom">Verhalen</a>
+      <a href="#forum" data-t="nav_forum">Forum</a>
+      <a href="#place" data-t="nav_plek">De Plek</a>
+      <a href="#about" data-t="nav_over">Over nBdy</a>
     </div>
     <div class="nav-tools">
       <div class="lang-wrap">
@@ -78,10 +78,10 @@ $user = getCurrentUser();
 
 <div id="mobile-menu">
   <button class="close-mobile" onclick="toggleMobile()"><svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/></svg></button>
-  <a href="#stroom" onclick="toggleMobile()" data-t="nav_stroom">De Stroom</a>
-  <a href="#forum" onclick="toggleMobile()" data-t="nav_forum">Het Forum</a>
-  <a href="#plek" onclick="toggleMobile()" data-t="nav_plek">De Plek</a>
-  <a href="#over" onclick="toggleMobile()" data-t="nav_over">Over nBdy</a>
+  <a href="#stories" onclick="toggleMobile()" data-t="nav_stroom">Verhalen</a>
+  <a href="#forum" onclick="toggleMobile()" data-t="nav_forum">Forum</a>
+  <a href="#place" onclick="toggleMobile()" data-t="nav_plek">De Plek</a>
+  <a href="#about" onclick="toggleMobile()" data-t="nav_over">Over nBdy</a>
 </div>
 
 <div id="login-modal">

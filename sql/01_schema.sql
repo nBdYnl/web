@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS categories (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ============================================================
--- STORIES / ARTICLES (De Stroom)
+-- STORIES / ARTICLES
 -- ============================================================
 CREATE TABLE IF NOT EXISTS stories (
     id              INT AUTO_INCREMENT PRIMARY KEY,
@@ -107,7 +107,7 @@ CREATE TABLE IF NOT EXISTS forum_replies (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ============================================================
--- TESTIMONIALS (Stemmen uit de stroom)
+-- TESTIMONIALS
 -- ============================================================
 CREATE TABLE IF NOT EXISTS testimonials (
     id          INT AUTO_INCREMENT PRIMARY KEY,
@@ -123,7 +123,7 @@ CREATE TABLE IF NOT EXISTS testimonials (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ============================================================
--- EXERCISES (De Oefening)
+-- EXERCISES
 -- ============================================================
 CREATE TABLE IF NOT EXISTS exercises (
     id              INT AUTO_INCREMENT PRIMARY KEY,

@@ -6,9 +6,9 @@ $readMore = getRecentStories(3, 0);
 function catName($story, $lang) { return $story['name_' . $lang] ?? $story['name_nl'] ?? 'Algemeen'; }
 ?>
 <div class="mag">
-  <div class="section-head" id="stroom">
-    <h2 data-t="stroom_title">Verhalen</h2>
-    <a href="<?= SITE_URL ?>/pages/archive.php" data-t="stroom_all">Alles bekijken →</a>
+  <div class="section-head" id="verhalen">
+    <h2 data-t="verhalen_title">Verhalen</h2>
+    <a href="<?= SITE_URL ?>/verhalen" data-t="verhalen_all">Alles bekijken →</a>
   </div>
   <div class="edit-grid">
     <?php if ($featured): ?>
@@ -35,9 +35,10 @@ function catName($story, $lang) { return $story['name_' . $lang] ?? $story['name
       <?php endforeach; ?>
     </div>
   </div>
+
   <div class="section-head">
     <h2 data-t="verder_title">Verder lezen</h2>
-    <a href="<?= SITE_URL ?>/pages/archive.php" data-t="verder_archief">Archief →</a>
+    <a href="<?= SITE_URL ?>/verhalen" data-t="verder_archief">Archief →</a>
   </div>
   <div class="grid-3">
     <?php foreach ($readMore as $story): ?>
