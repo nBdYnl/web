@@ -1,6 +1,6 @@
 # nBdy Website
 
-> **Voor en van iedereen.** Een collectief van zielen.
+> **Voor en van iedereen.** Een plek voor echte verhalen.
 
 ---
 
@@ -29,11 +29,11 @@ nbdy-website/
 │       ├── hero.php
 │       ├── connect-web.php
 │       ├── stats.php
-│       ├── stroom.php
-│       ├── oefening.php
+│       ├── stories.php
+│       ├── practice.php
 │       ├── forum.php
-│       ├── stemmen.php
-│       └── plek.php
+│       ├── voices.php
+│       └── place.php
 │
 ├── pages/                     # Subpagina's
 │   ├── article.php            # Verhaal detailpagina
