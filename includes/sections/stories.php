@@ -7,7 +7,7 @@ function catName($story, $lang) { return $story['name_' . $lang] ?? $story['name
 ?>
 <div class="mag">
   <div class="section-head" id="stories">
-    <h2 data-t="stroom_title">De Stroom</h2>
+    <h2 data-t="stroom_title">Verhalen</h2>
     <a href="<?= SITE_URL ?>/pages/archive.php" data-t="stroom_all">Alles bekijken →</a>
   </div>
   <div class="edit-grid">

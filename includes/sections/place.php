@@ -15,7 +15,7 @@ $hasDbData = $title !== null;
       <p <?= !$hasDbData ? 'data-t="plek_desc2"' : '' ?>><?= $hasDbData ? sanitizeInput($desc2) : 'Geen therapie, geen programma. Gewoon zijn. Samen rond het vuur. Praten als je wilt, zwijgen als je moet. Een plek waar je kunt uitrusten, praten en ontmoeten. Dat is waar we naartoe werken.' ?></p>
       <div class="plek-stats">
         <div class="plek-stat"><div class="num">0</div><div class="lbl" data-t="plek_hectare">Hectare</div></div>
-        <div class="plek-stat"><div class="num">247</div><div class="lbl" data-t="plek_zielen">Zielen</div></div>
+        <div class="plek-stat"><div class="num">247</div><div class="lbl" data-t="plek_zielen">Mensen</div></div>
         <div class="plek-stat"><div class="num">1</div><div class="lbl" data-t="plek_droom">Droom</div></div>
       </div>
     </div>

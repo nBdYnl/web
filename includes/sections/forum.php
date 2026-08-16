@@ -5,7 +5,7 @@ function topicCatName($topic, $lang) { return $topic['name_' . $lang] ?? $topic[
 ?>
 <div class="forum-strip" id="forum">
   <div class="fs-head">
-    <h2 data-t="forum_title">Het Forum</h2>
+    <h2 data-t="forum_title">Forum</h2>
     <a href="<?= SITE_URL ?>/pages/forum.php" data-t="forum_all">Bekijk alles →</a>
   </div>
   <div class="forum-grid">

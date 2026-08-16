@@ -25,9 +25,6 @@ $user = getCurrentUser();
 <!-- Toast -->
 <div id="toast"></div>
 
-<!-- Login Modal -->
-<?php require_once __DIR__ . '/sections/login-modal.php'; ?>
-
 <!-- Navigation -->
 <nav id="main-nav">
   <div class="nav-inner">
